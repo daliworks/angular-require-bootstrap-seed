@@ -133,7 +133,8 @@ module.exports = function (grunt) {
         files: {
           '.tmp/styles/bootstrap.css': '<%= yeoman.app %>/styles/less_twitter_bootstrap/bootstrap.less',
           '.tmp/styles/app.css': '<%= yeoman.app %>/styles/*.less',
-          '<%= yeoman.app %>/styles/bootstrap.css': '<%= yeoman.app %>/styles/less_twitter_bootstrap/bootstrap.less',
+          '<%= yeoman.app %>/styles/bootstrap.css':
+              '<%= yeoman.app %>/styles/less_twitter_bootstrap/bootstrap.less',
           '<%= yeoman.app %>/styles/app.css': '<%= yeoman.app %>/styles/*.less'
         }
       },
@@ -152,7 +153,8 @@ module.exports = function (grunt) {
         files: {
           '.tmp/styles/bootstrap.css': '<%= yeoman.app %>/styles/less_twitter_bootstrap/bootstrap.less',
           '.tmp/styles/app.css': '<%= yeoman.app %>/styles/*.less',
-          '<%= yeoman.app %>/styles/bootstrap.css': '<%= yeoman.app %>/styles/less_twitter_bootstrap/bootstrap.less',
+          '<%= yeoman.app %>/styles/bootstrap.css':
+              '<%= yeoman.app %>/styles/less_twitter_bootstrap/bootstrap.less',
           '<%= yeoman.app %>/styles/app.css': '<%= yeoman.app %>/styles/*.less'
         }
       },
