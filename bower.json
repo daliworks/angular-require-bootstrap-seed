@@ -1,0 +1,30 @@
+{
+  "name": "seeds",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "1.2.1",
+    "angular-route": "1.2.1",
+    "angular-resource": "1.2.1",
+    "angular-cookies": "1.2.1",
+    "angular-sanitize": "1.2.1",
+    "angular-ui-router": "0.2.0",
+    "json3": "3.2.5",
+    "es5-shim": "2.1.0",
+    "requirejs": "2.1.9",
+    "requirejs-domready": "2.0.1",
+    "requirejs-i18n": "2.0.4",
+    "jquery": "2.0.3",
+    "sidr": "1.2.1",
+    "jquery.animate-enhanced": "latest",
+    "jquery-touchswipe": "1.6.4",
+    "lodash": "2.3.0",
+    "socket.io-client": "0.9.16",
+    "bootstrap": "3.0.2",
+    "momentjs": "2.4.0",
+    "pace": "0.4.15"
+  },
+  "devDependencies": {
+    "angular-mocks": "latest",
+    "angular-scenario": "latest"
+  }
+}

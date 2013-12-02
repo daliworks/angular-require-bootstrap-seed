@@ -1,0 +1,23 @@
+<div class="noti {{ noti.new }} checked-{{ checked }} severity-{{ noti.severity }}">
+  <div ng-show="noti.severity == 'alert'">
+    <i class="alert-noti"></i>
+  </div>
+  <div class="noti-type {{ nodeType | lowercase }}">{{ nodeType }}</div>
+  <div class="noti-message">
+    <a href="#/{{ nodeCategory }}/{{ noti.node.id }}">{{ noti.node.name }}</a>
+    {{ noti.message }}
+    <div>
+      <span ng-show="noti.node.type" class="{{noti.node.type }}"> </span>
+      {{ noti.ctime | date:'MMM d, h:m a' }} - {{ noti.id }}
+    </div>
+  </div>
+  <div class="noti-check">
+    <input type="checkbox" id="{{ noti.id }}" name="cc" ng-model="checked" ng-click="check()">
+    <label for="{{ noti.id }}">
+      <span></span>
+    </label>
+  </div>
+
+
+  <div class="clearfix"></div>
+</div>

@@ -1,0 +1,21 @@
+<h1>Angular - Communicating with Servers</h1>
+
+<h2>$http</h2>
+<ul>
+  <li>$http.get - {{user.id}}</li>
+  <li>$http.post - {{user.text}}</li>
+</ul>
+
+<h2>$http with Service</h2>
+<ul>
+  <li>httpService.getCard - {{user.getCardResponse}}</li>
+  <li>httpService.saveCard - {{user.saveCardResponse}}</li>
+  <li>httpService.queryCard - {{user.queryCardResponse}}</li>
+  <li>httpService.chargeCard - {{user.chargeCardResponse}}</li>
+</ul>
+
+<h2>$resource with Service</h2>
+<ul>
+  <li>restService.query - {{user.cards}}</li>
+  <li>restService.getCard - {{user.getCardRestResponse}}</li>
+</ul>
